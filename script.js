@@ -26,9 +26,23 @@ console.log(numX);
 numX = 7 % 5;
 console.log(numX);
 
-// Concat
+/* -------------------------------------------- */
+console.log('--Concat--');
+
+// Concat - coerce and convert - output will be string
 let concatX = 'Hello' + ' World!';
+let concatY = 'true' + 25;
 console.log(concatX);
+console.log(concatY);
+
+// Concat cont: NOTE adding a boolean to a number will output a number
+let bool = true;
+let numValue = 50;
+let result = bool + numValue;
+console.log(result, typeof result);
+
+console.log('-----');
+/* -------------------------------------------- */
 
 // Exponent
 let exponent = 2 ** 2;
